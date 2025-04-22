@@ -1,4 +1,4 @@
-[Admin Switch HP Procurve 2610 184291169444807d8cb5da873ad7eb03.md](https://github.com/user-attachments/files/19849878/Admin.Switch.HP.Procurve.2610.184291169444807d8cb5da873ad7eb03.md)[Uploading A# Admin Switch HP Procurve 2610
+ Admin Switch HP Procurve 2610
 
 ---
 
