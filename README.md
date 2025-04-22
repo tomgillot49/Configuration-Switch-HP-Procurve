@@ -8,11 +8,7 @@ Ce document fournit une vue d'ensemble de la configuration de base des switches 
 
 ## 📦 Modèles Concernés
 
-- HP ProCurve 1810G
-- HP ProCurve 2510
-- HP ProCurve 2530
-- HP ProCurve 2920
-- HP ProCurve 3500yl
+- HP ProCurve 2610 48 ports
 
 ---
 
