@@ -1,1 +1,70 @@
+<h1> Configuration SW-TOM01 </h1>
+Running configuration:
+
+; J9088A Configuration Editor; Created on release #R.11.98
+
+hostname "Switch-Tom01"
+interface 48
+   name "Liaison_Trunk"
+exit
+ip routing
+snmp-server community "tom" Unrestricted
+vlan 1
+   name "DEFAULT_VLAN"
+   untagged 11-19,30-52
+   ip address dhcp-bootp
+   no untagged 1-10,20-29
+   exit
+vlan 10
+   name "LAN_Serveur"
+   untagged 1-10
+   ip address 172.16.12.1 255.255.255.0
+   tagged 48
+   exit
+vlan 20
+   name "LAN_Client"
+   untagged 20-29
+   ip address 192.168.12.1 255.255.255.0
+   tagged 48
+   exit
+banner motd "Bienvenue sur le Switch de Tom
+"
+snmp-server host 172.16.12.110 community "tom"
+snmp-server host 172.16.12.111 community "tom"
+ip ssh
+no dhcp config-file-update
+password manager
+
+
+
+<h1> Configuration SW-TOM02</h1>
+Running configuration:
+
+; J9088A Configuration Editor; Created on release #R.11.98
+
+hostname "Switch-Tom02"
+snmp-server community "tom" Unrestricted
+vlan 1
+   name "DEFAULT_VLAN"
+   untagged 11-19,30-52
+   ip address dhcp-bootp
+   no untagged 1-10,20-29
+   exit
+vlan 10
+   name "LAN_Serveur"
+   untagged 1-10
+   ip address 172.16.12.2 255.255.255.0
+   tagged 48
+   exit
+vlan 20
+   name "LAN_Client"
+   untagged 20-29
+   ip address 192.168.12.2 255.255.255.0
+   tagged 48
+   exit
+snmp-server host 172.16.12.110 community "tom"
+snmp-server host 172.16.12.111 community "tom"
+ip ssh
+no dhcp config-file-update
+password manager
 
