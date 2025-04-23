@@ -1,5 +1,6 @@
 # 🌐 Présentation de la Configuration des Switches HP ProCurve
 - https://github.com/tomgillot49/Configuration-Switch-HP-Procurve/blob/master/commandes-de-bases.md
+- https://github.com/tomgillot49/Configuration-Switch-HP-Procurve/blob/master/CONFIG-SWITCH.html
 
 
 ## 🧾 Objectif
